@@ -10,7 +10,7 @@ typedef struct node{
 
 void creat_tree(list list_tree)
 {
-	NODE *node;  //栈
+	NODE *node;  //地址放在栈中  malloc后的空间放在堆中
 	int data;
 
 	scanf("%d", &data);
